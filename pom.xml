@@ -5,7 +5,7 @@
 	<artifactId>java8</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>java8</name>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -13,5 +13,21 @@
 			<version>6.11</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.7</version>
+		</dependency>
+
 	</dependencies>
+	<plugin>
+		<artifactId>maven-compiler-plugin</artifactId>
+		<version>2.3.2</version>
+		<configuration>
+			<source>1.8</source>
+			<target>1.8</target>
+			<encoding>UTF-8</encoding>
+		</configuration>
+	</plugin>
 </project>

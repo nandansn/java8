@@ -18,7 +18,7 @@ public class StreamsExample {
 		System.out.println(persons.stream().filter(person -> person.getAge() > 35).count());
 		
 		IntStream numberStream = IntStream.of(1,2,3,4);
-		numberStream.forEach((int number) -> number * 2);
+		numberStream.forEach(i -> System.out.print(i));
 		
 		
 	}
