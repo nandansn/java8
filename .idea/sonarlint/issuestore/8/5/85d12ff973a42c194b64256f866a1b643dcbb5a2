@@ -1,5 +1,0 @@
-
-Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÁÛèãğ,
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(£Êµú8Çìãğ,
-Ksquid:S1481"0Remove this unused "nameStreams" local variable.(³èÓ.8Çìãğ,
-Zsquid:S1854"?Remove this useless assignment to local variable "nameStreams".(³èÓ.8Çìãğ,
